@@ -1,5 +1,9 @@
 package xyz.gosiphone.basicproblem;
 
+import java.util.ArrayDeque;
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * 10진수를 입력받아 2진수로 변환하는 Solution 메소드를 작성하세요.
  * <p/>
@@ -11,10 +15,13 @@ package xyz.gosiphone.basicproblem;
  * */
 public class Practice09DecToBin {
     public static void main(String[] args){
-        int result = solution(1);
+        String result = solution(10L);
+        System.out.println(result);
+        String result2 = solution(100L);
+        System.out.println(result2);
     }
 
-    private static int solution(int decimal){
-        return decimal;
+    private static String solution(long decimal){
+        return Long.toBinaryString(decimal);
     }
 }
