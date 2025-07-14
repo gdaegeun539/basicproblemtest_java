@@ -1,6 +1,6 @@
 package xyz.gosiphone.basicproblem;
 
-import java.util.*;
+import java.util.HashMap;
 
 public class Main {
     public static void main(String[] args) {
@@ -50,11 +50,29 @@ public class Main {
 //
 //        System.out.println(System.identityHashCode(null));
 
-        ArrayDeque<Integer> sampleQ = new ArrayDeque<>();
-        sampleQ.addLast(123);
-        sampleQ.addLast(42);
-        sampleQ.addLast(15674);
+//        ArrayDeque<Integer> sampleQ = new ArrayDeque<>();
+//        sampleQ.addLast(123);
+//        sampleQ.addLast(42);
+//        sampleQ.addLast(15674);
+//
+//        System.out.println(sampleQ.pollFirst());
 
-        System.out.println(sampleQ.pollFirst());
+        HashMap<String, Integer> sampleHashMap = new HashMap<>();
+
+        sampleHashMap.put("123", 123);
+        sampleHashMap.put("124", 456);
+        sampleHashMap.put("135", 789);
+        sampleHashMap.put("157", 147);
+        sampleHashMap.put("168", 258);
+
+        System.out.println(sampleHashMap.isEmpty());
+        System.out.println(sampleHashMap.get("135"));
+        System.out.println(sampleHashMap.containsKey("357"));
+
+        sampleHashMap.remove("157");
+        System.out.println(sampleHashMap.size());
+
+        sampleHashMap.clear();
+        System.out.println(sampleHashMap);
     }
 }
