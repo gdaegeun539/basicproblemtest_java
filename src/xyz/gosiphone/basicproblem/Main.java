@@ -1,5 +1,7 @@
 package xyz.gosiphone.basicproblem;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class Main {
@@ -57,22 +59,24 @@ public class Main {
 //
 //        System.out.println(sampleQ.pollFirst());
 
-        HashMap<String, Integer> sampleHashMap = new HashMap<>();
+//        HashMap<String, Integer> sampleHashMap = new HashMap<>();
+//
+//        sampleHashMap.put("123", 123);
+//        sampleHashMap.put("124", 456);
+//        sampleHashMap.put("135", 789);
+//        sampleHashMap.put("157", 147);
+//        sampleHashMap.put("168", 258);
+//
+//        System.out.println(sampleHashMap.isEmpty());
+//        System.out.println(sampleHashMap.get("135"));
+//        System.out.println(sampleHashMap.containsKey("357"));
+//
+//        sampleHashMap.remove("157");
+//        System.out.println(sampleHashMap.size());
+//
+//        sampleHashMap.clear();
+//        System.out.println(sampleHashMap);
 
-        sampleHashMap.put("123", 123);
-        sampleHashMap.put("124", 456);
-        sampleHashMap.put("135", 789);
-        sampleHashMap.put("157", 147);
-        sampleHashMap.put("168", 258);
-
-        System.out.println(sampleHashMap.isEmpty());
-        System.out.println(sampleHashMap.get("135"));
-        System.out.println(sampleHashMap.containsKey("357"));
-
-        sampleHashMap.remove("157");
-        System.out.println(sampleHashMap.size());
-
-        sampleHashMap.clear();
-        System.out.println(sampleHashMap);
+        System.out.println(Arrays.toString(new int[1000]));
     }
 }
