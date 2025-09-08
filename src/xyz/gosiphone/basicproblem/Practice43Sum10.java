@@ -10,6 +10,8 @@ import java.util.ArrayList;
  * - 백트래킹 활용(백트래킹 연습문제)
  * - 숫자 조합은 오름차순으로 정렬되어야 합니다.
  * - 같은 숫자는 한 번만 선택 가능합니다.
+ * ### 권장 풀이 시간, 시간 복잡도
+ * 60분, O(n!)
  */
 public class Practice43Sum10 {
     private static ArrayList<ArrayList<Integer>> solution(int n) {

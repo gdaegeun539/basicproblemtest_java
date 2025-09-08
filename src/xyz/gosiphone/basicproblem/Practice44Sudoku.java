@@ -12,6 +12,8 @@ import java.util.Arrays;
  * - 주어지는 board는 스도쿠를 완성 가능한 보드이다.
  * - 답안은 유일하지 않다.
  *   - 스도쿠 규칙에 맞다면 정답으로 인정한다.
+ * ### 권장 풀이 시간, 시간 복잡도
+ * 90분, O(9^n)
  * */
 public class Practice44Sudoku {
     private static int[][] solution(int[][] board){
