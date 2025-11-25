@@ -1,6 +1,7 @@
 package xyz.gosiphone.basicproblem;
 
 import java.util.Arrays;
+import java.util.ArrayList;
 
 /**
  * <p>
@@ -14,10 +15,27 @@ import java.util.Arrays;
  *     <li>거스를 돈의 화폐 단위는 1, 10, 50, 100이다.</li>
  *     <li>거스를 돈의 개수는 무한하다.</li>
  * </ul>
+ * <p>
+ *     권장 풀이 시간: 40분
+ *     권장 시간 복잡도: O(n)
+ * </p>
  * */
 public class Practice77CoinAmount {
     private static int[] solution(int amount) {
-        return new int[]{};
+        int[] coinValues = new int[] {100, 50, 10, 1};
+
+        ArrayList<Integer> result = new ArrayList<>();
+        for (int coin: coinValues) {
+            int count = amount / coin;
+
+            for (int value = 0; value < count; value++) {
+                result.add(coin);
+            }
+
+            amount = amount % coin;
+        }
+
+        return result.stream().mapToInt(Integer::intValue).toArray();
     }
 
     public static void main(String[] args) {
@@ -25,3 +43,10 @@ public class Practice77CoinAmount {
         System.out.println(Arrays.toString(solution(350))); // [100, 100, 100, 50]
     }
 }
+
+/*
+* 1. 제일 큰 단위로 거스를 수 있는 돈을 몫으로 구하기
+* 1-1. 이 값을 배열에 추가
+* 2. 다음 단위로 넘겨줄 값을 나머지로 구하기
+* 3. 위 과정을 제일 작은 단위인 1로 할 때 까지 진행
+* */
