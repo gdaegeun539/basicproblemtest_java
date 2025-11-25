@@ -1,4 +1,4 @@
-package xyz.gosiphone.basicproblem;
+package xyz.gosiphone.basicproblem.bookpractice;
 
 /**
  * <h5>주어진 정수 배열에 대해 최장 증가 부분 수열의 길이를 계산하시오.</h5>

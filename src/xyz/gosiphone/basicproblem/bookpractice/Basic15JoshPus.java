@@ -1,4 +1,4 @@
-package xyz.gosiphone.basicproblem;
+package xyz.gosiphone.basicproblem.bookpractice;
 
 import java.util.ArrayDeque;
 

@@ -1,4 +1,4 @@
-package xyz.gosiphone.basicproblem;
+package xyz.gosiphone.basicproblem.sample;
 
 public class TimeTest {
     public static void main(String[] args) {

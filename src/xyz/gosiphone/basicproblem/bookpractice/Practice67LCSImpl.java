@@ -1,4 +1,4 @@
-package xyz.gosiphone.basicproblem;
+package xyz.gosiphone.basicproblem.bookpractice;
 
 /**
  * <h5>주어진 두 개의 문자열에 대해 최장 공통 부분 수열의 길이을 계산하시오.</h5>

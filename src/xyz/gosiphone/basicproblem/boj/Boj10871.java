@@ -1,4 +1,4 @@
-package xyz.gosiphone.basicproblem;
+package xyz.gosiphone.basicproblem.boj;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

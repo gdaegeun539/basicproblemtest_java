@@ -1,8 +1,4 @@
-package xyz.gosiphone.basicproblem;
-
-import java.util.ArrayDeque;
-import java.util.LinkedList;
-import java.util.Queue;
+package xyz.gosiphone.basicproblem.bookpractice;
 
 /**
  * 10진수를 입력받아 2진수로 변환하는 Solution 메소드를 작성하세요.

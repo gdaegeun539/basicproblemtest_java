@@ -1,9 +1,8 @@
-package xyz.gosiphone.basicproblem;
+package xyz.gosiphone.basicproblem.bookpractice;
 
 import java.util.Arrays;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.HashSet;
 
 /**
  * DFS로 모든 그래프의 노드를 순회하는 메소드 `solution()`을 작성하세요.

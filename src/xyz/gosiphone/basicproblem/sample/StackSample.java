@@ -1,7 +1,6 @@
-package xyz.gosiphone.basicproblem;
+package xyz.gosiphone.basicproblem.sample;
 
 import java.util.ArrayDeque;
-import java.util.Stack;
 
 public class StackSample {
     public static void main(String[] args) {
