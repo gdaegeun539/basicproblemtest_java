@@ -61,4 +61,6 @@ public class Failure42889 {
 /*
 * 헷갈린 메소드
 * Double.compare() `Arrays.sort(failureCount, (c1, c2) -> Double.compare(c2[1], c1[1]));`
+* 정수 나눗셈 시 캐스팅 `(double) calcUser[index][0] / calcUser[index][1];`
+* double to int 강제형변환 `(int)(failureCount[index][0])`
 * */
